@@ -1,1 +1,3 @@
 # NyxCore
+One of my first ever server cores. This project had a ton of skidded code, messy, and full of bugs that i cant remember anymore, the last time i officially worked on this core was around 3/2/24
+i will not be posting any updates to this, this is simply here to provide some sort of use for anybody...
