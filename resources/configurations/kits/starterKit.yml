@@ -1,0 +1,67 @@
+starterItems:
+  - item: "diamond_helmet"
+    name: "&r&l&f<&r&7Starter Helmet&f&l>"
+    enchantments:
+      - enchantment: "protection"
+        level: 1
+  - item: "diamond_chestplate"
+    name: "&r&l&f<&r&7Starter Chestplate&f&l>"
+    enchantments:
+      - enchantment: "protection"
+        level: 1
+  - item: "diamond_leggings"
+    name: "&r&l&f<&r&7Starter Leggings&f&l>"
+    enchantments:
+      - enchantment: "protection"
+        level: 1
+  - item: "diamond_boots"
+    name: "&r&l&f<&r&7Starter Boots&f&l>"
+    enchantments:
+      - enchantment: "protection"
+        level: 1
+  - item: "diamond_sword"
+    name: "&r&l&f<&r&7Starter Sword&f&l>"
+    enchantments:
+      - enchantment: "sharpness"
+        level: 1
+  - item: "diamond_pickaxe"
+    name: "&r&l&f<&r&7Starter Pickaxe&f&l>"
+    enchantments:
+      - enchantment: "efficiency"
+        level: 1
+  - item: "diamond_axe"
+    name: "&r&l&f<&r&7Starter Axe&f&l>"
+    enchantments:
+      - enchantment: "efficiency"
+        level: 1
+  - item: "diamond_shovel"
+    name: "&r&l&f<&r&7Starter Shovel&f&l>"
+    enchantments:
+      - enchantment: "efficiency"
+        level: 1
+  - item: "bow"
+    name: "&r&l&f<&r&7Starter Bow&f&l>"
+    enchantments:
+      - enchantment: "power"
+        level: 1
+  - item: "arrow"
+    amount: 64
+  - item: "diamond_hoe"
+    name: "&r&l&f<&r&7Starter Hoe&f&l>"
+  - item: "seed"
+    amount: 16
+  - item: "sugar_cane"
+    amount: 16
+  - item: "cactus"
+    amount: 16
+  - item: "obsidian"
+    amount: 32
+  - item: "tnt"
+    amount: 32
+  - item: "flint_n_steel"
+    amount: 1
+  - item: "golden_apple"
+    amount: 4
+
+
+

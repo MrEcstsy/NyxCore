@@ -1,0 +1,27 @@
+quests:
+  farming:
+    name: "FARMER-QUEST"
+    stages:
+      '1':
+        action: "KILL"
+        details: "SHEEP"
+        amount: 5
+      '2':
+        action: "KILL"
+        details: "PIG"
+        amount: 3
+      '3':
+        action: "MINE"
+        details: "WHEAT"
+        amount: 10
+      '4':
+        action: "EAT"
+        details: "BREAD"
+        amount: 10
+      '5':
+        action: "PLACE"
+        details: "HAY_BLOCK"
+        amount: 5
+    commands-executed-on-complete:
+      '1': "tell {p} good job! You're a good farmer!" # Replace {p} with the player's name in your code.
+      '2': "gamemode creative {p}"

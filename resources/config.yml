@@ -1,0 +1,64 @@
+---
+# Configuration for Announcer plugin
+
+# The prefix message
+# Use '&' for colors
+prefix: "&r&8[&aAA&8] "
+
+# enable/disable the use of prefixes.
+# true = on, false = off
+use-prefix: false
+
+# Interval between each message in ticks (20 ticks per second) (Default: 1200 ticks = 1 minute)
+# Use this for a tick calculator. https://codepen.io/mrjohndoe69/pen/ExPZpNb
+interval: 1200
+
+# Taxes (Taxes the rewards) in percentage
+# e.g: 600,000$ - 10% = 540,000$
+tax:
+  bounty: 10 # Removes 10%
+  jackpot: 10
+# Enchantment related
+simple: 100
+unique: 250
+elite: 500
+ultimate: 1000
+legendary: 10000
+max-enchants: 3
+tinkerer-per-enchant: 1
+# Change the radius of the /near command
+near-radius: 20
+# Pouch Configuration
+moneypouches:
+  tier1:
+    min: 1000
+    max: 25000
+  tier2:
+    min: 25000
+    max: 150000
+  tier3:
+    min: 150000
+    max: 250000
+  tier4:
+    min: 250000
+    max: 550000
+  tier5:
+    min: 1000000
+    max: 2000000
+# XP Pouches
+xppouches:
+  xptier1:
+    min: 1000
+    max: 25000
+  xptier2:
+    min: 25000
+    max: 35000
+  xptier3:
+    min: 35000
+    max: 45000
+  xptier4:
+    min: 45000
+    max: 55000
+  xptier5:
+    min: 55000
+    max: 65000

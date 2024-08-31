@@ -1,0 +1,49 @@
+blackscroll:
+  item: ink_sac
+  name: '&l&8Black Scroll'
+  lore:
+    - '&7This scroll can be used to remove a random CE from an item'
+    - '&7and receive it in the form of a book'
+    - ""
+    - '&6Success Rate: &a{SUCCESS}%'
+  glint: false
+whitescroll:
+  item: empty_map
+  name: '&l&fWhite Scroll'
+  lore:
+    - '&7This scroll protects an item from being destroyed if'
+    - '&7a CE book fails to apply and destroy''s the item instead.'
+    - ""
+    - '&fThe item loses its protection on use.'
+  glint: false
+transmogscroll:
+  item: paper
+  name: '&l&aTransmog Scroll'
+  lore:
+    - '&7This item orders all the enchants on your item by rarity'
+    - '&7and adds an enchant count to the name of your item.'
+  glint: false
+enchantdust:
+  item: glowstone_dust
+  name: '&l&bEnchantment Dust'
+  lore:
+    - ' '
+    - '&7Apply this item onto a CE book to increase'
+    - it's success rate by &a{PERCENT}%
+  glint: false
+weaponorb:
+  item: ender_eye
+  name: '&l&6Weapon Orb'
+  lore:
+    - ' '
+    - '&7Apply this item onto a weapon to increase'
+    - '&7the max enchant slots on it to &a{TIER}'
+  glint: false
+armororb:
+  item: ender_eye
+  name: '&l&6Armor Orb'
+  lore:
+    - ' '
+    - '&7Apply this item onto armor to increase'
+    - '&7the max enchant slots on it to &a{TIER}'
+  glint: false

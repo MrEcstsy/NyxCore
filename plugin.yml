@@ -1,0 +1,62 @@
+name: EtherealFactions-Nyx
+main: wock\NyxCore\Nyx
+api: 5.0.0
+author: wockgod
+version: 1.0.0
+permissions:
+  Nyx.warps:
+    default: true
+  Nyx.settings:
+    default: true
+  Nyx.warp.fantasy:
+    default: op
+  Nyx.gift:
+    default: true
+  Nyx.gifts:
+    default: true
+  Nyx.reload:
+    default: op
+  Nyx.kit:
+    default: true
+  Nyx.itemdb:
+    default: op
+  Nyx.rtp:
+    default: op
+  Nyx.near:
+    default: op
+  Nyx.removemask:
+    default: true
+  pocketmine.command.gamemode:
+    default: op
+  Nyx.bounty:
+    default: true
+  Nyx.bounty.remove:
+    default: op
+  Nyx.quest:
+    default: true
+  Nyx.scroll:
+    default: op
+  Nyx.enchanter:
+    default: true
+  Nyx.dust:
+    default: op
+  Nyx.kdr:
+    default: true
+  Nyx.xpbottle:
+    default: true
+  Nyx.exp:
+    default: true
+  Nyx.xp.add:
+    default: op
+  Nyx.xp.remove:
+    default: op
+  Nyx.xp.set:
+    default: op
+  Nyx.xp.show:
+    default: true
+  Nyx.xpshop:
+    default: true
+  Nyx.coinflip:
+    default: true
+  Nyx.jackpot:
+    default: true

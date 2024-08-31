@@ -1,0 +1,49 @@
+# List of messages to be broadcasted
+# Use '&' for colors, Use `\n` to break the line
+messages:
+  - "                       §r§l§8[§aFantasy Announcer§8]           \n      §r§7➥ §fWant to customize your gameplay experience?\n       §r§fCheck out the §a/settings §fcommand!\n"
+  - "                       §r§l§8[§aFantasy Announcer§8]           \n      §r§7➥ §fDid you find a bug or exploit? Make sure to report\n       §r§fto the discord for rewards! §r§7(#bug-reports)\n"
+  - "                       §r§l§8[§aFantasy Announcer§8]           \n      §r§7➥ §fNeed assistance? Join our discord with §l§a/discord\n"
+  - "                       §r§l§8[§aFantasy Announcer§8]           \n      §r§7➥ §fEnjoying the server? Consider supporting\n       §r§fvia our server webstore §7(store.fantasycloudpe.tk)\n"
+
+# Settings Configuration
+
+settings:
+  in-game-only: "&cYou must run this command in-game."
+  invalid-usage: "&cInvalid command usage. Use '/settings <setting> <value>' or '/settings list'."
+  invalid-subcommand: "&cInvalid subcommand. Use '/settings list' to view available settings."
+  available-settings: "&eAvailable settings:"
+  chestguis-setting-changed: "&eChest GUIs setting is now "
+  announcements-setting-changed: "&eAnnouncements setting is now "
+  enabled: "&aenabled."
+  disabled: "&cdisabled."
+  invalid-value: "&cInvalid value. Use 'true' or 'false' for settings."
+
+# Gamemode Messages
+# Tags: {player}, {target_player}, {gamemode}
+gamemode:
+  in_game_only: "&cYou must run this command in-game"
+  invalid_arguments: "&cInvalid arguments: /gamemode <mode> [player]"
+  invalid_gamemode: "&cInvalid gamemode"
+  player_not_found: "&cPlayer '{player}' does not exist or is offline."
+  no_permission: "&cYou don't have permission to change to that game mode."
+  set_gamemode: "&aSet {target_player}'s game mode to {gamemode}."
+
+# Exp Messages
+# Tags: {player} {exp} {level} {levelup} {amount} {new_xp}
+xp:
+  in_game_only: "&cThis command must be used in-game."
+  self_info: "{player} §r§6has §r§c{exp} EXP §r§6(level §r§c{level}§r§6) §r§6and needs {levelup} more exp to level up."
+  no_permission: "&cYou do not have permission to use this command."
+  add_usage: "&cUsage: /xp add <player> <amount>"
+  player_not_found: "&cPlayer not found."
+  invalid_amount: "&cAmount must be a positive integer."
+  add_success: "&aAdded {amount} XP to {player}. Their new XP is {new_xp}."
+  remove_usage: "&cUsage: /xp remove <player> <amount>"
+  insufficient_xp: "&c{player} does not have that much XP."
+  remove_success: "&aRemoved {amount} XP from {player}. Their new XP is {new_xp}."
+  set_usage: "&cUsage: /xp set <player> <amount>"
+  set_success: "&aSet {player}'s XP to {amount}."
+  show_usage: "&cUsage: /xp show <player>"
+  show_info: "{player} §r§6has §r§c{xp} EXP §r§6(level §r§c{level}§r§6) §r§6and needs {levelup} more exp to level up."
+  invalid_command: "&cUsage: /xp [add|remove|set|show] <player> <amount>"
